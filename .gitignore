@@ -1,0 +1,108 @@
+
+# =====================================
+# 1. PYTHON VIRTUAL ENVIRONMENTS
+# =====================================
+venv/
+.venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =====================================
+# 2. NODE.JS / REACT / NEXT.JS
+# =====================================
+node_modules/
+.next/
+.nuxt/
+dist/
+build/
+coverage/
+.npm/
+.yarn/
+
+# =====================================
+# 3. ENVIRONMENT VARIABLES / SECRETS
+# =====================================
+.env
+.env.*
+!.env.example
+!.env.template
+
+# =====================================
+# 4. IDE / EDITOR
+# =====================================
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# =====================================
+# 5. OPERATING SYSTEM FILES
+# =====================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =====================================
+# 6. PYTHON TESTING
+# =====================================
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.coverage
+htmlcov/
+
+# =====================================
+# 7. LOG FILES
+# =====================================
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# =====================================
+# 8. BUILD / DISTRIBUTION
+# =====================================
+*.egg-info/
+.eggs/
+wheels/
+pip-wheel-metadata/
+target/
+
+# =====================================
+# 9. JAVA / MAVEN / GRADLE
+# =====================================
+.gradle/
+out/
+*.class
+
+# =====================================
+# 10. DATABASE TEMPORARY FILES
+# =====================================
+*.sqlite-journal
+*.db-journal
+
+# =====================================
+# 11. TEMPORARY FILES
+# =====================================
+*.tmp
+*.temp
+*.bak
+*.old
+
+# =====================================
+# 12. JUPYTER CHECKPOINTS
+# =====================================
+.ipynb_checkpoints/
+
+# =====================================
+# 13. LOCAL DATA / MODEL OUTPUTS
+# =====================================
+# Add specific private data folders here if needed
+# private_data/
+# model_outputs/

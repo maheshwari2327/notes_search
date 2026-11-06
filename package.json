@@ -1,0 +1,13 @@
+{
+  "name": "notes_search",
+  "version": "1.0.0",
+  "description": "A simple, local, beginner-friendly Semantic Search web application for course notes built with **Gradio** and **ChromaDB**.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
